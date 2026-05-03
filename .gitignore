@@ -1,4 +1,68 @@
-# Python-generated files
+# Comprehensive .gitignore for learning-artifacts repository
+# ====================
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+build/
+/dist/
+/wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# uv lock file (optional – keep if you want to track dependencies)
+# uv.lock
+
+# Jupyter Notebook files
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Data files (ignore raw data directories if present)
+data/
+*.csv
+*.tsv
+*.parquet
+*.hdf5
+*.h5
+*.sqlite3
+
+# Log files
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE / editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.coverage
+.coverage
+htmlcov/
+*.egg
+*.dist-info/
+
+# Pytest cache
+.pytest_cache/
+
+# Secret files
+.env
+.env.*
+# End of .gitignore
 __pycache__/
 *.py[oc]
 build/

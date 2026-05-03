@@ -1,10 +1,26 @@
 [project]
-name = "research"
+name = "learning-artifacts"
 version = "0.1.0"
-description = "Add your description here"
+description = "Centralized learning and research repo"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "ipykernel>=7.2.0",
-    "pydantic>=2.13.2",
 ]
+
+# Optional dependency groups – install with `uv sync --extra <group>`
+[project.optional-dependencies]
+# Core Python learning (design patterns, data model, techniques)
+python = []
+
+# Machine‑learning toolbox groups
+ml_toolbox = []               # generic ML utilities
+ml_toolbox_airflow = []       # Airflow‑related examples
+ml_toolbox_tensorflow = []    # TensorFlow / Keras examples
+
+# Computer‑vision toolbox
+cv_toolbox = []               # OpenCV, image‑processing deps
+
+# Data‑analysis toolbox
+da_toolbox = []               # pandas, matplotlib, seaborn, etc.
+
