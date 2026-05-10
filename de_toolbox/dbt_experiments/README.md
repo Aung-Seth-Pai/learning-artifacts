@@ -91,6 +91,8 @@ dbt docs serve
 ```
 
 ## References
+- [Introduction to dbt](https://app.datacamp.com/learn/courses/introduction-to-dbt) — DataCamp course by **Mike Metzger**
 - [dbt Documentation](https://docs.getdbt.com/docs/introduction)
 - [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 - [dbt + DuckDB Guide](https://docs.getdbt.com/docs/core/connect-data-platform/duckdb-setup)
+
