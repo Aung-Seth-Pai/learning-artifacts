@@ -62,13 +62,24 @@ htmlcov/
 # Secret files
 .env
 .env.*
-# End of .gitignore
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
 
-# Virtual environments
-.venv
+# SSL certificates
+*.crt
+*.key
+
+# dbt artifacts
+target/
+dbt_packages/
+.user.yml
+
+# Database files
+*.db
+*.duckdb
+
+# Airflow
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# Windows WSL Zone.Identifier files
+*:Zone.Identifier
