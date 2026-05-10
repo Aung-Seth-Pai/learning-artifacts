@@ -1,0 +1,14 @@
+# dbt generated artifacts
+target/
+dbt_packages/
+logs/
+
+# dbt user-specific config
+.user.yml
+
+# DuckDB database (recreate with `dbt run`)
+*.db
+*.duckdb
+
+# Large data files (download from NYC TLC: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+*.parquet

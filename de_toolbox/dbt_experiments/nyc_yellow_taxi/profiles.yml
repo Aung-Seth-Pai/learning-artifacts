@@ -1,0 +1,13 @@
+nyc_yellow_taxi:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: duckdb.db
+      threads: 1
+      # host: localhost
+      # port: 5432
+      # user: your_username
+      # pass: your_password
+      # dbname: your_database
+      # schema: your_schema
