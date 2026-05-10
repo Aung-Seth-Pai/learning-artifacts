@@ -15,12 +15,21 @@ python = []
 
 # Machine‑learning toolbox groups
 ml_toolbox = []               # generic ML utilities
-ml_toolbox_airflow = []       # Airflow‑related examples
 ml_toolbox_tensorflow = []    # TensorFlow / Keras examples
+
+# Data engineering toolbox
+de_toolbox = []               # Airflow / data engineering examples
+de_toolbox_dbt_experiments = [
+    "dbt-core>=1.8.0", "dbt-duckdb>=1.10.1", 
+    "numpy>=2.4.4", "pandas>=3.0.2"]  # DBT and DuckDB for experiments
 
 # Computer‑vision toolbox
 cv_toolbox = []               # OpenCV, image‑processing deps
 
 # Data‑analysis toolbox
 da_toolbox = []               # pandas, matplotlib, seaborn, etc.
+
+# Infrastructure and miscellaneous experiments
+infra = []                    # NGINX, Docker, infra examples
+misc = []                     # assorted experiments and prompt engineering
 
